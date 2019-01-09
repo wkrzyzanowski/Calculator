@@ -10,7 +10,7 @@ This application:
  *MULTIPLICATION* | MULTIPLY (number) | Multiply result by number
  *DIVISION* | DIVIDE (number) | Divide result by number
  *MODULO* | MODULO (number) | Modulo divide result by number
- ||
+ -|-|-
  **APPLY** | APPLY (number) | Number is set as initial result
  
  Instructions in input file should be in new lines and number should be separated by "whitespace".
