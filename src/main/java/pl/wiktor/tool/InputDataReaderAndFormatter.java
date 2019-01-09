@@ -36,13 +36,12 @@ public class InputDataReaderAndFormatter {
         String input;
         while ((input = br.readLine()) != null) {
             String[] tmp = input.split("\\s");
-            instructionList.add(new Instruction(convertAction(tmp[0]), Double.valueOf(tmp[1])));
+            instructionList.add(new Instruction(convertAction(tmp[0].toUpperCase()), Double.valueOf(tmp[1])));
             if (tmp[0].toUpperCase().equals("APPLY")) {
                 break;
             }
         }
     }
-
 
     private void findStartResult() {
         int lastIndex = this.instructionList.size() - 1;
