@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Calculator {
 
-    List<Instruction> instructionList;
-    double startResult;
+    private List<Instruction> instructionList;
+    private double startResult;
 
 
     public Calculator(List<Instruction> instructionList, double startResult) {
