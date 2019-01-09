@@ -18,7 +18,7 @@ This application:
  <br/>
  <br/>
  
- #Build and deploy:
+ # Build and deploy:
  Application uses [**Maven**][1] to build and deploy.
  
 
@@ -48,7 +48,7 @@ This application:
  <br/>
  <br/>
   
-  #Input file specification:
+  # Input file specification:
   Input file:
   - should be in *.txt format
   - should contains possible instructions with space-separated numbers (int or double)
