@@ -3,7 +3,6 @@ package pl.wiktor;
 import pl.wiktor.tool.Calculator;
 import pl.wiktor.tool.InputDataReaderAndFormatter;
 
-import java.io.IOException;
 import java.util.Locale;
 
 
@@ -12,12 +11,11 @@ public class StartApp {
 
         InputDataReaderAndFormatter inputDataReaderAndFormatter = new InputDataReaderAndFormatter();
         Calculator calculator;
-        try {
+
             calculator = new Calculator(inputDataReaderAndFormatter.readFromStdInput(), inputDataReaderAndFormatter.getStartResult());
             double result = calculator.calculate();
             System.out.printf("%s\n", String.format(Locale.US, "%.2f", result));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+
     }
 }

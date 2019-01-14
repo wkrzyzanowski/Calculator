@@ -1,11 +1,11 @@
 package pl.wiktor.model;
 
-public class Instruction {
+public class InputInstructionPattern {
 
     private PossibleActions task;
     private double number;
 
-    public Instruction(PossibleActions task, double number) {
+    public InputInstructionPattern(PossibleActions task, double number) {
         this.task = task;
         this.number = number;
     }
@@ -29,7 +29,7 @@ public class Instruction {
 
     @Override
     public String toString() {
-        return "Instruction{" +
+        return "InputInstructionPattern{" +
                 "task='" + task + '\'' +
                 ", number=" + number +
                 '}';

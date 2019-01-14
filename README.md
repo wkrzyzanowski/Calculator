@@ -52,8 +52,8 @@ This application:
   Input file:
   - should be in *.txt format
   - should contains possible instructions with space-separated numbers (int or double)
-  - **!!! everyone input file should contain APPLY (number) instruction as last action !!!**
-  - instruction can be write as lower or upper case letters
+  - **!!! everyone input file should contain APPLY (number) inputInstructionPattern as last action !!!**
+  - inputInstructionPattern can be write as lower or upper case letters
   - instructions after **APPLY** will be omitted!
   
   ### EXAMPLE SimpleTestFile.txt
